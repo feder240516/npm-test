@@ -27,5 +27,7 @@
     "LICENSE",
     "package.json"
   ],
-  "exports": "./dist/index.js"
+  "exports": {
+    ".": "./dist/index.js"
+  }
 }
