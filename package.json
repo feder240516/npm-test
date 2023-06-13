@@ -21,5 +21,10 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json"
+  ]
 }
