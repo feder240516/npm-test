@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/feder240516/npm-test/compare/v1.0.4...v1.0.5) (2023-06-13)
+
+
+### Bug Fixes
+
+* dists ([90c2b06](https://github.com/feder240516/npm-test/commit/90c2b06393993826db01fd9a4ab49a052c9eb41a))
+
 ## [1.0.4](https://github.com/feder240516/npm-test/compare/v1.0.3...v1.0.4) (2023-06-13)
 
 
