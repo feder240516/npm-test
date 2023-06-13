@@ -23,7 +23,7 @@
     "access": "public"
   },
   "files": [
-    "dist",
+    "dist/*",
     "LICENSE",
     "package.json"
   ]
