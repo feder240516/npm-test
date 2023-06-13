@@ -11,7 +11,7 @@
     "test": "jest --verbose",
     "example:run": "ts-node -r tsconfig-paths/register ./example/index.ts",
     "prepare": "husky install",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn install --frozen-lockfile && yarn build"
   },
   "devDependencies": {
     "husky": "^8.0.3",
