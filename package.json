@@ -26,5 +26,6 @@
     "dist/*",
     "LICENSE",
     "package.json"
-  ]
+  ],
+  "exports": "./dist"
 }
