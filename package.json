@@ -1,0 +1,22 @@
+{
+  "name": "npm-test-001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://feder240516@github.com/feder240516/npm-test.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist && tsup src/index.ts --dts --config tsconfig.build.json",
+    "lint": "eslint --ext .ts --max-warnings=0 --fix .",
+    "type-check": "tsc --noEmit",
+    "test": "jest --verbose",
+    "example:run": "ts-node -r tsconfig-paths/register ./example/index.ts",
+    "prepare": "husky install",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "rimraf": "^5.0.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}
