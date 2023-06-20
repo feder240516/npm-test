@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/feder240516/npm-test/compare/v1.0.7...v1.0.8) (2023-06-13)
+
+
+### Bug Fixes
+
+* exports ([6e43903](https://github.com/feder240516/npm-test/commit/6e4390336bfd9d52f3ea515aa465b41d1e796141))
+
 ## [1.0.7](https://github.com/feder240516/npm-test/compare/v1.0.6...v1.0.7) (2023-06-13)
 
 
