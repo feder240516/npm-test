@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: npm-test
+theme:
+  name: material
+nav:
+markdown_extensions:
+- pymdownx.snippets:
+    check_paths: true
