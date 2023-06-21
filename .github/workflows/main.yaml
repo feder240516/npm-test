@@ -25,10 +25,10 @@ jobs:
 
   publish-docs:
     name: Publish mkdocs to GitHub Pages
-    needs: [code-checks]
+    needs: [release]
     uses: ./.github/workflows/_mkdocs_publish.yaml
     secrets:
-      semantic-release-token: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
+      mkdocs-token: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
       npm-token: ${{ secrets.NPM_TOKEN }}
     permissions:
       contents: write
