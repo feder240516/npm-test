@@ -6,14 +6,10 @@ on:
       mkdocs-token:
         description: 'GitHub token for mkdocs'
         required: true
-      npm-token:
-        description: 'NPM token for semantic release'
-        required: true
 
 env:
   HUSKY: 0
-  GITHUB_TOKEN: ${{ secrets.semantic-release-token }}
-  NPM_TOKEN: ${{ secrets.npm-token }}
+  GITHUB_TOKEN: ${{ secrets.mkdocs-token }}
 
 jobs:
   release:
