@@ -25,15 +25,10 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - name: 'Setup node with cache'
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          cache: 'yarn'
       - name: Deploy MkDocs
         uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
         env:
-          GITHUB_TOKEN: ${{ secrets.semantic-release-token }}
+          GITHUB_TOKEN: ${{ secrets.mkdocs-token }}
           CONFIG_FILE: mkdocs.yml
           # GITHUB_DOMAIN: github.myenterprise.com
           REQUIREMENTS: requirements.txt
