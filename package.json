@@ -11,7 +11,8 @@
     "test": "jest --verbose",
     "example:run": "ts-node -r tsconfig-paths/register ./example/index.ts",
     "prepare": "husky install",
-    "prepublishOnly": "yarn install --frozen-lockfile && yarn build"
+    "prepublishOnly": "yarn install --frozen-lockfile && yarn build",
+    "docs:install": "python -m venv ./mkdocsPyEnv && ./mkdocsPyEnv/Scripts/pip install -r ./docs/requirements.txt"
   },
   "devDependencies": {
     "husky": "^8.0.3",

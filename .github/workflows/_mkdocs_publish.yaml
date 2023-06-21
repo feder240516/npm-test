@@ -3,8 +3,8 @@ name: Deploy mkdocs
 on:
   workflow_call:
     secrets:
-      semantic-release-token:
-        description: 'GitHub token for semantic release'
+      mkdocs-token:
+        description: 'GitHub token for mkdocs'
         required: true
       npm-token:
         description: 'NPM token for semantic release'
